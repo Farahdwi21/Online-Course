@@ -1,0 +1,72 @@
+<!--- Spesifikasi Website: 
+
+1. Buat minimal 5 halaman 
+2. Terdapat Form 
+3. Konten website bisa melihat situs online course yang sudah ada 
+4. Tambahkan fitur HTML5 (bisa pilih dari beberapa fitur yang sudah ada di HTML5) 
+5. Layout dibuat tidak menggunakan framework -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LogIn</title>
+    <link rel="stylesheet" href="login.css"/>
+</head>
+
+<body>
+
+  <!--- For Menu (Navbar) --->
+  <div class="menu">
+        <ul>
+          <li><a style= "color : black;" href="index.html">Home</a></li>
+          <li><a style= "color : black;" href="courses.html">Courses</a></li>
+          <li><a style= "color : black;" href="gallery.html">Gallery</a></li>
+          <li><a style= "color : black;" href="login.html">Login</a></li>
+          <li><a style= "color : black;" href="event.html">Event</a></li>
+        </ul>
+ </div>
+	<!--- Header--->
+	<div class="container">
+    <h1>Programming & Computer Courses (PCC)</h1>
+  </div>
+
+   <!--- Konten -->
+    <div class="content">
+        <div class="left">
+          <h1>LOGIN</h1>
+          <form method="post" action="https://www.dicoding.com/">
+            <div class="inputan">
+              <label>Username</label></br>
+              <input type="text" required>
+            </div>
+            <div class="inputan">
+              <label>Password</label></br>
+              <input type="password" required>
+            </div>
+            <div class="forgot">Forgot Password?
+            </div>
+            <input type="submit" value="Login">
+          </form>
+      </div>
+
+
+        <div class="right">
+        <h2>Online Courses</h2>
+        </br>
+        <ul>
+          <li><a href="courses.html">dicoding</a></li>
+          <li><a href="courses.html">Coursera</a></li>
+          <li><a href="courses.html">Udemy</a></li>
+        </ul>
+     
+        </div>
+
+    </div>
+
+
+    <!--- Foooter -->
+    <div class="footer"><h3>Desain dan Pemrograman Web</h3></div>
+
+
+</body>
+</html>
